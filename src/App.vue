@@ -22,7 +22,7 @@ export default {
           this.$router.push( { name : "Login" } );   
          });
       }
-    }, 45000); // check per min
+    }, 45000); // check per 45s
   },
 };
 </script>
